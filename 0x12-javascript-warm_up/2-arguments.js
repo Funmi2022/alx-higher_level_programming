@@ -1,7 +1,4 @@
 #!/usr/bin/node
+const count = process.argv.length;
+console.log(count === 2 ? 'No argument' : count === 3 ? 'Argument found' : 'Arguments found');
 
-const count = 3;
-
-process.argv.forEach((val) => {
-   console.log(`count: ${!val ? 'No argument' : val === process.argv[0] || val === process.argv[1] ? 'Argument found' : 'Arguments found'}`);
-});

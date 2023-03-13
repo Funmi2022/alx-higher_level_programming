@@ -1,3 +1,6 @@
 #!/usr/bin/node
-let myVar = 'C is fun \n python is cool \n JavaScript is amazing';
-    console.log(myVar);
+
+// Script that prints C is fun,Python is cool and JavaScript is amazing.
+
+const myVar = 'C is fun\nPython is cool\nJavaScript is amazing';
+console.log(myVar);
